@@ -1,0 +1,802 @@
+body {
+	background-color: #f2f2f2;
+}
+
+body > .wrapper > .main {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.header {
+	background-color: #056738;
+}
+
+.header .header-head {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.header .header-head img {
+	width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	.header .header-head img {
+		width: 80%;
+	}
+}
+
+.navbar {
+	border-radius: 0;
+	background-color: #333;
+	border: 0;
+	margin-bottom: 0 !important;
+	border-top:;
+}
+
+.navbar .navbar-nav > li > a {
+	color: #ddd !important;
+	font-size: 17px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.navbar .navbar-nav > li > a:hover {
+	color: #fff !important;
+}
+
+.navbar .dropdown-menu {
+	background-color: #333;
+}
+
+.dropdown-menu > li > a {
+	color: #ddd !important;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: #444;
+	color: #fff;
+}
+
+.main-image > div > img {
+	width: 100%;
+}
+
+.main-news {
+	background-color: #fff;
+	padding: 25px 20px;
+	border: 1px solid #dcdcdc;
+}
+
+.main-news .news-title > h1 {
+	font-weight: bold;
+	font-size: 34px;
+	color: #333;
+}
+
+.main-news .news-image > img {
+	width: 100%;
+}
+
+.main-news .news-description > p {
+	font-size: 16px;
+	color: #222;
+}
+
+
+.sidebar {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.announcements {
+	padding: 25px 0;
+}
+
+.panel > .panel-heading {
+	background-color: #056738;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.announcement .announcement-title > h2 {
+	font-size: 14px;
+	color: #333;
+}
+
+.announcement .announcement-date > span {
+	font-size: 12px;
+}
+
+.announcement .announcement-button {
+	text-align: right;
+}
+
+.announcement .announcement-button > a {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.announcement + .announcement {
+	border-top: 1px solid #ddd;
+}
+
+.wrapper > .footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: #056738;
+	border-top: 1px solid #dcdcdc;
+}
+
+.wrapper > .footer > div > div > h6 {
+	color: #ccc;
+}
+
+.wrapper > .footer .footer-social > a {
+	font-size: 24px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #ccc;
+}
+
+.wrapper > .footer .footer-social > a:hover {
+	color: #fff;
+}
+
+.wrapper > .footer .footer-tupp > a {
+	color: #ccc;
+}
+
+.wrapper > .footer .footer-tupp > a:hover {
+	color: #fff;
+}
+
+
+
+.main > div > .login {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.login .login-form {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login .login-form > form > .panel > .panel-heading {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.login .login-form > form > .panel > .panel-heading > .panel-title {
+	font-size: 28px;
+	color: #555;
+}
+
+.login .login-form > form > .panel > .panel-body {
+	padding: 35px 30px;
+}
+
+.login .login-form > form > .panel > .panel-body > .input-group > input {
+	border-radius: 0;
+}
+
+.login .login-form > form > .panel > .panel-body > .input-group > span {
+	border-radius: 0;
+	color: #777;
+	background-color: #fff;
+}
+
+.login .login-form > form > .panel > .panel-footer {
+	background-color: #fff;
+	padding: 30px;
+}
+
+.login .login-form > form > .panel > .panel-footer > .login-button > button {
+	border-radius: 0;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+
+
+.news-carousel .carousel-inner > .item > img {
+	width: 100%;
+}
+
+.news-carousel .carousel-inner > .item > .carousel-caption {
+	background-color: rgba(10,10,10,.4);
+	margin-bottom: -20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.admin-login {
+	max-width: 400px;
+	margin-top: 5%;
+	margin-bottom: 6%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-body.about-us > div {
+	padding: 6% 5%;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+.main-body.about-us .about-content {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.main-body.contact-us > div {
+	padding: 6% 5%;
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+.main-body.contact-us .contact-content {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.main-body.contact-us .contact-content > div > h4 {
+	font-size: 22px;
+}
+
+.main-body.contact-us .contact-content > div > p {
+	font-size: 16px;
+}
+
+.announcement-single {
+	background-color: #fff;
+	padding: 4% 5%;
+	border: 1px solid #ddd;
+}
+
+.announcement-single > .announcement-title > h1 {
+	font-size: 28px;
+}
+
+.announcement-single > .announcement-date > span {
+	font-size: 13px;	
+}
+
+.announcement-single > .announcement-description > p {
+	font-size: 17px;	
+}
+
+
+.news-main > .news-item ~ .news-item {
+	margin-top: 15px;
+}
+
+.news-main > .news-item {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 2% 3%;
+}
+
+.news-main > .news-item .news-image {
+	padding: 4px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+
+.news-main > .news-item .news-image > img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.news-main > .news-item .news-title > h2 {
+	font-size: 20px;
+}
+
+.news-main > .news-item .news-date {
+	margin-bottom: 12px;
+	margin-top: -7px;
+}
+
+.news-main > .news-item .news-date > span {
+	font-size: 12px;
+}
+
+
+.announcement-main > .announcement-item ~ .announcement-item {
+	margin-top: 15px;
+}
+
+.announcement-main > .announcement-item {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 2% 3%;
+}
+
+.announcement-main > .announcement-item .announcement-image {
+	padding: 4px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+
+.announcement-main > .announcement-item .announcement-image > img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.announcement-main > .announcement-item .announcement-title > h2 {
+	font-size: 20px;
+}
+
+.announcement-main > .announcement-item .announcement-date {
+	margin-bottom: 12px;
+	margin-top: -7px;
+}
+
+.announcement-main > .announcement-item .announcement-date > span {
+	font-size: 12px;
+}
+
+.announcement-single {
+	background-color: #fff;
+	padding: 4% 5%;
+	border: 1px solid #ddd;
+}
+
+.announcement-single > .announcement-title > h1 {
+	font-size: 28px;
+}
+
+.announcement-single > .announcement-date > span {
+	font-size: 13px;	
+}
+
+.announcement-single > .announcement-description > p {
+	font-size: 17px;	
+}
+
+.activate-main {
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.activate-main form {
+	padding: 1% 6%;
+}
+
+.survey-main {
+	padding: 5%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.required {
+	color: red;
+	font-weight: bold;
+}
+
+.survey-item {
+	padding: 3%;
+}
+
+.survey-item  {
+	border-top: 1px solid #ddd;
+}
+
+.survey-item > div {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.social-buttons {
+	text-align: center;
+}
+
+.social-buttons > a {
+	font-size: 15px;
+	margin-left: 2px;
+	margin-right: 2px;
+	color: #fff;
+}
+
+.social-buttons > a:hover {
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

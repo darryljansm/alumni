@@ -1,0 +1,15 @@
+# Turn on Rewrite Engine
+RewriteEngine on
+
+# Rewrite index.php
+RewriteRule ^home index.php [NC,L]
+
+# Remove .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Redirect to 404 if file not found
+ErrorDocument 404 /alumni/error-404.php
+
+# Prevent directory listing
+#IndexIgnore *

@@ -1,0 +1,292 @@
+body {
+	background-color: #f5f5f5;
+}
+
+.main-container {
+	margin-top: -40px;
+}
+
+.carousel.slide {
+	position: relative;
+}
+
+.main-logo {
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	z-index: 999;
+}
+
+.main-logo > img {
+	width: 20%;
+}
+
+
+
+/** NAVBAR **/
+.navbar {
+	border-radius: 0;
+	width: 100%;
+	background-color: #fff;
+	border-right: none;
+	border-left: none;
+	border: 0;
+}
+
+.navbar-nav > li {
+	float: inherit;
+	display: block;
+	width: 100%;
+}
+
+.navbar-nav > li:hover {
+	background-color: #056738;
+}
+
+.navbar-nav > li ~ li {
+	border-top: 1px solid #ccc;
+}
+
+.navbar-nav > li > ul > li ~ li {
+	border-top: 1px solid #ccc;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #056738;
+}
+
+.navbar-nav  li > a {
+	color: #056738 !important;
+}
+
+.navbar-nav > li:hover > a {
+	color: #fff !important;
+}
+
+.navbar-nav > li > a:focus {
+	color: #fff !important;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	padding: 0;
+}
+
+.dropdown-menu > li:hover > a {
+	color: #fff !important;
+	background-color: #056738;
+}
+
+@media (min-width: 768px) {
+	.container-fluid {
+		padding: 0;
+	}
+
+	.navbar-collapse {
+		padding: 0;
+	}
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #056738;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #056738;
+	border-color: #056738;
+}
+
+
+
+
+.right-sidebar .side-banner > a > img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/** FOOTER **/
+footer {
+	background-color: #056738;
+	margin-bottom: 0 !important;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer section .header > h4 {
+	color: #fff;
+}
+
+footer section ul {
+	padding-left: 15px;
+	list-style: none;
+}
+
+footer section ul > li {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** SIDE LOGIN **/
+.side-login .panel {
+	border-radius: 0;
+}
+
+.side-login .panel-heading {
+	background-color: #fff;
+	color: #056738;
+	border-radius: 0;
+}
+
+.side-login .panel-footer button {
+	background-color: #fff !important;
+	font-weight: bold;
+	color: #056738;
+	border-radius: 0;
+	border-color: #056738;
+}
+
+
+
+
+/** SIDE CONTACT **/
+.side-contact .contact-form .panel {
+	border-radius: 0;
+}
+
+.side-contact .contact-form .panel .panel-heading {
+	background-color: #fff;
+	border-radius: 0;
+}
+
+
+.side-contact .contact-form .panel .panel-footer button {
+	background-color: #fff !important;
+	color: #056738;
+	border-radius: 0;
+	border: 1px solid #056738;
+}
+
+.side-contact .contact-form .panel .panel-body textarea {
+	border-radius: 0;
+	border: 1px solid #056738;
+	color: #056738;
+}
+
+.side-contact .contact-form .panel #captcha_code {
+	border-radius: 0;
+	border: 1px solid #056738;
+	color: #056738;
+}
+
+
+
+
+
+
+/** LATEST NEWS **/
+.latest-news .panel {
+	border-radius: 0;
+}
+
+.latest-news .panel .panel-body {
+	padding: 0;
+}
+
+.latest-news .news-image > img {
+	width: 100%;
+}
+
+
+
+
+
+/** FACEBOOK LIKE **/
+.fb-like-button {
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+
+
+
+
+
+.green {
+	color: #056738;
+}
+
+.green {
+	color: #056738;
+}
+
+
+.input-group > input {
+	border-color: #056738;
+	border-radius: 0 !important;
+	background-color: #fff;
+	color: #056738;
+}
+
+.input-group > span {
+	border-color: #056738;
+	border-radius: 0 !important;
+	background-color: #fff;
+	color: #056738;
+}
+
+.box-shadow {
+	box-shadow: 0px 0px 5px #777;
+}
+
+
+
+
+/** SUURVEY FORM **/
+
+.main-content.survey-form {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.survey-item > .options {
+	padding-left: 3%;
+}
+
+.survey-item .required {
+	color: #f00;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+.main-content.contact-us {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
